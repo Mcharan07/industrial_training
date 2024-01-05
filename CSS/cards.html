@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height:400px;
+            width:250px;
+            border:5px solid;
+        }
+        .a{
+            position: absolute;
+            z-index:1;
+        }
+        .b{
+            position: absolute;
+            top:40px;
+            left:40px;
+            z-index:2;
+        }
+        .c{
+            position: absolute;
+            top:80px;
+            left:80px;
+            z-index:3;
+        }
+        .d{
+            position:relative;
+            top:100px;
+            left:100px;
+            z-index:4;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="pl1.jpg">
+    </div>
+    <div class="b">
+        <img src="pl2.jpg">
+    </div>
+    <div class="c">
+        <img src="pl3.jpg">
+    </div>
+    <div class="d">
+        <img src="pl4.jpg">
+    </div>
+</body>
+</html>
