@@ -1,0 +1,23 @@
+
+       
+div{
+    width:900px;
+    border:2px solid black;
+    height:940px;
+   
+
+}
+.green{
+    height:100px;
+    width:100px;
+    background-color:green;
+
+}
+.white{
+    height:100px;
+    width:100px;
+    background-color:white;
+    
+}
+
+

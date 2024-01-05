@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        body{
+            background-color:gray;
+        }
+
+        #a{
+            height:80px;
+            background-color: white;
+        }
+        #b{
+            margin-top:10px;
+            margin-left:20px;
+            margin-right:20px;
+            margin-bottom:40px;
+            height:550px;
+            width:400px;
+            background-color:white;
+            float:left;
+        }
+        #c{
+            height:300px;
+            width:820px;
+            background-color: white;
+            margin-top:10px;
+            float:left;
+            }
+            #d{
+            height:300px;
+            width:820px;
+            background-color: white;
+            margin-top:10px;
+            float:left;
+            }
+            button{
+                background-color: lightgreen;
+                border-radius:5px;
+                margin-top:50px;
+                margin-left:300px;
+                border:0px; 
+            }
+            .b1{
+                background-color: lightskyblue;
+                border-radius:5px;
+                margin-top:50px;
+                margin-left:30px;
+                border:0px;
+            }
+            .b2{
+                background-color: lightskyblue;
+                border-radius:5px;
+                margin-top:50px;
+                margin-left:30px;
+                border:0px;
+            }
+            .b3{
+                background-color: lightskyblue;
+                border-radius:5px;
+                margin-top:50px;
+                margin-left:30px;
+                border:0px;
+            }
+            #select{
+                background-color: red;
+                border-radius:5px;
+                margin-top:50px;
+                margin-left:30px;
+                border:0px;
+            }
+         img{
+            margin-top: 10px;
+            margin-left:100px;
+            margin-right:50px;
+            width:200px;
+            height: 200px;
+            border-radius: 50%;
+            border:2px solid blue;
+         }   
+         .b4{
+                background-color: lightskyblue;
+                border:0px;
+                border-radius:5px;
+                margin-top:10px;
+                margin-left:120px;
+            }
+            .b5{
+                border:2px solid blue;
+                font-family:blue;
+                border:0px;
+                border-radius:5px;
+                margin-top:10px;
+                margin-left:10px;
+            }
+            .b6{
+                border:2px solid blue;
+                border-radius:5px;
+                margin-top:30px;
+                margin-left:200px;
+            }
+            .i1{
+                font-size:10px;
+                margin-top:20px;
+                margin-left:10px;
+            }
+            span{
+                float:right;
+            }
+            input{
+                width:620px;
+                height:20px;
+                float:right;
+            }
+            .in{
+                margin-top:25px;
+            }
+            label{
+               font-size:20px;
+            }
+            progress{
+                height:5px;
+                width:620px;
+                border-radius: 20%;
+               margin-top:10px;
+               margin-bottom:10px;
+
+            }
+            #p1{
+                color:brown
+            }
+            .p2{
+               background-color: red;
+            }
+
+
+    </style>
+</head>
+<body>
+    <div id="a">
+        <button type="button">Preview</button>
+        <button class="b1">HTML</button>
+        <button class="b2">CSS</button>
+        <button class="b3">Download</button>
+        <select id="select">
+            <option>Action</option>
+        </select>
+    </div>
+    <div id="b">
+        <img src="u.jpg">
+        <center><h3>John Doe</h3>
+        <br>
+        Full Stack Developer<br>
+        Bay Area San Francisco CA<br></center>
+        <button class="b4">Follow</button>
+        <button class="b5">Message</button><br>
+      <i class="fa-solid fa-globe"style="font-size:20px;margin-left:20px;"></i>browser<span>bootday</span><hr>
+      <i class="fa-brands fa-github"class="i1"style="font-size:20px;margin-left:20px;"></i>GitHub<span>bootday</span><hr>
+      <i class="fa-brands fa-twitter"class="i1"style="font-size:20px;margin-left:20px;"></i>Twitter<span>bootday</span><hr>
+      <i class="fa-brands fa-facebook"class="i1"style="font-size:20px;margin-left:20px;"></i>facebook<span>bootday</span><hr>
+      <i class="fa-brands fa-instagram"class="i1"style="font-size:20px;margin-left:20px;"></i>instagram<span>bootday</span><hr>
+    </div>
+    <div id="c">
+        <div class="in" ><label>Full Name</label><input type="text" ></div>
+        <div class="in" ><label>Email</label><input type="email" ></div>
+        <div class="in" ><label>Phone</label><input type="number" required></div>
+        <div class="in" ><label>Address</label><input type="text" ></div>
+       <button class="b6" type="button" >Save Changes</button>
+    </div>
+    <div id="d">
+        <h2 style="margin-left:10px;">Project Status</h2>
+        Web Design<br>
+      <progress  max="100" value="70">70%</progress> <br>
+       Website Markup<br>
+       <progress max="100" value="60">60%</progress><br>
+       One Page<br>
+      <progress  class="p2"max="100" value="80" >80%</progress><br>
+       Mobile template <br>
+       <progress max="100" value="55" >55%</progress><br>
+       Backend API<br>
+       <progress max="100" value="75" >75%</progress><br>
+    </div>
+</body>
+</html>

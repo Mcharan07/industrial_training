@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position in CSS</title>
+    <style>
+        .a{
+            height:300px;
+            width:300px;
+            border: 2px solid red;
+            background-color:grey;
+            float:left;
+            position:static;
+            top:0px;
+        }
+        .b{
+            height:300px;
+            width:300px;
+            border: 2px solid green;
+            background-color:grey;
+            float:left;
+            position:relative;
+            top:10px;
+            left:30px;
+        }
+        .c{
+            height:300px;
+            width:300px;
+            border: 2px solid blue;
+            background-color:grey;
+            float:left;
+            position:absolute;
+            top:40px;
+            left:30px;/*absolute consider parent tag*/
+        }
+        .d{
+            height:300px;
+            width:300px;
+            border: 2px solid orange;
+            background-color:grey;
+            float:left;
+            position:fixed;
+            bottom:0px;
+            right:0px;
+        }
+        .parent{
+            height:350px;
+            width:350px;
+            border: 2px dashed red;
+            background-color:grey;
+            float:left;
+            position:relative;
+            top:0px;
+        }
+        .e{
+            height:50px;
+            border:3px solid black;
+            background-color:aqua;
+            font: 100px;
+            position:sticky;
+            top:0px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Position in CSS</h1></center><hr>
+    <div class="a">static</div>
+    <div class="b">relative</div>
+    <div class="parent">
+    <div class="c">absolute</div></div>
+    <div class="d">fixed</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+    </p>
+    <div class="e"><center><h1 style="margin-top:10px;">Sticky in CSS</h1></center></div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nobis dignissimos alias eveniet culpa voluptate labore ab quis est laborum ex fuga architecto quod dolorum quam sed blanditiis, impedit commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita tempore quod aut tempora velit atque porro repudiandae? Laudantium illo repellat quas minus recusandae debitis suscipit unde minima mollitia ab!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum rerum praesentium corrupti reprehenderit doloremque officiis magni quas fuga dolorem culpa ullam obcaecati repudiandae optio pariatur officia, dolor nemo fugit alias!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum quisquam quasi enim voluptates placeat voluptas animi, explicabo odio sit, a asperiores culpa aliquam inventore quod dicta ipsam odit maiores.
+    </p>
+</body>
+</html>

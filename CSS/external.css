@@ -1,0 +1,44 @@
+/*Class selector*/
+.external{
+    border:1px solid red;
+    font-size:25px;
+    color:chocolate;
+    background-color:aquamarine
+}
+/*ID selector*/
+#main{
+    height:50px;
+    width:50px;
+    background-color:red;
+}
+/*element selector*/
+span{
+    color:violet;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* universal selector*/
+*{ 
+     font-family: Gill Sans;
+    margin:0px;
+    padding:0px;
+}
+/*attribute selector*/
+input[type]{
+    color:brown;
+}
+a[href]{
+    color:red;
+}
+/*pseudo codes */
+a:hover{
+    font-size:20px;
+    color:brown;
+}
+a:visited{
+    color:blue;
+}
+a:active{
+    color:blueviolet
+}
+

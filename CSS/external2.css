@@ -1,0 +1,171 @@
+.a{
+    height:400px;
+    width:600px;
+    background-color:black;
+}
+.b{
+    height:100px;
+    width:600px;
+    background-color:aqua;
+    float:left;
+}
+.c{
+    height:100px;
+    width:100px;
+    float:left;
+    background-color: blue;
+}
+.d{
+    height:100px;
+    width:100px;
+    background-color:green;
+    float:right;
+}
+.e{
+    height:50px;
+    width:100px;
+    background-color:black;
+}
+.f{
+    height:50px;
+    width:50px;
+    background-color:brown;
+    float:left;
+}
+.g{
+    height:50px;
+    width:50px;
+    background-color:yellow;
+    float:right;
+}
+.h{
+    height:400px;
+    width:600px;
+    background-color:blueviolet;
+    float:left;
+}
+.i{
+    height:400px;
+    width:100px;
+    background-color: beige;
+    float:left;
+}
+.j{
+    height:300px;
+    width:100px;
+    background-color:brown;
+    float:left;
+}
+.k{
+    height:100px;
+    width:100px;
+    background-color:black;
+    float:left;
+}
+.k1{
+    height:100px;
+    width:50px;
+    background-color: blue;
+    float:left;
+}
+.k1{
+    height:100px;
+    width:50px;
+    background-color: green;
+    float:right;
+}
+.l{
+    height:50px;
+    width:500px;
+    background-color:blue;
+    float:right;
+}
+.l1{
+    height:400px;
+    width:600px;
+    background-color: black;
+    
+}
+.l2{
+    height:400px;
+    width:300px;
+    background-color: white;
+    
+}
+.l3{
+    height:350px;
+    width:100px;
+    float:left;
+    background-color: blue;
+}
+.l31{
+    height:250px;
+    width:100px;
+    background-color: black;
+    
+}
+.l32{
+    height:250px;
+    width:50px;
+    background-color: yellow;
+    float:left;
+}
+.l33{
+    height:250px;
+    width:50px;
+    background-color: red;
+    float:right;
+}
+.l4{
+    height:350px;
+    width:100px;
+    float:left;
+    background-color:green;
+}
+.m{
+    height:400px;
+    width:600px;
+    background-color:red;
+}
+.m1{
+    height:100px;
+    width:600px;
+    background-color:orange;
+}
+.m2{
+    height:300px;
+    width:100px;
+    background-color: aqua;
+    float:left;
+}
+.m3{
+height:300px;
+width:100px;
+background-color: chocolate;
+float:left;
+}
+.m4{
+height:300px;
+width:100px;
+background-color: blue;
+float:right;
+}
+.m21{
+    height:200px;
+    width:100px;
+    background-color: black;
+}
+.m22{
+    height:100px;
+    width:50px;
+    float:left;
+    background-color:red;
+
+}
+.m23{
+    height:100px;
+    width:50px;
+    float:right;
+    background-color:blue;
+
+}
