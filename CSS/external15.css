@@ -1,0 +1,90 @@
+.a{
+    background-color: rgb(197, 255, 248);
+}
+.a1{
+    height:80px;
+    background-color: rgb(17, 0, 158);
+    color:white;
+    font-size: 30px;
+    text-align:center;
+    padding-top:30px;
+}
+.f2{
+    position:relative;
+    left:20px;
+    font-size:17px;
+}
+.a2{
+    height:30px;
+    width:250px;
+    margin-bottom:10px;
+    margin-top:10px;
+    color:white;
+    border:0px;
+}
+hr{
+    width:120px;
+    position:relative;
+    left:0px;
+}
+.a3{
+    height:200px;
+    width:970px;
+    background-color: rgb(73, 66, 228);
+    position:absolute;
+    top:0px;
+    left:300px;
+    border-radius: 5px;
+}
+.f3{
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:20px;
+    color:white;
+    font-size: 25px;
+}
+.f4{
+    font-weight:lighter;
+    margin-top:20px;
+    margin-left:30px;
+    margin-bottom: 0px;
+    color:white;
+    font-size: 20px;
+}
+.a4{
+    height:250px;
+    width:200px;
+    background-color: rgb(95, 189, 255);
+    margin-top:0px;
+    margin-right:40px;
+    border-radius: 5px;
+    float:left;
+}
+img{
+    margin-top: 20px;
+    margin-left:20px;
+}
+.f5{
+    margin-left:20px;
+    margin-top:10px;
+    font-size: 15px;
+    margin-bottom:10px;
+    color:white;
+}
+.f6{
+    position:absolute;
+    right:60px;
+    top:20px;
+    height:100px;
+    width:100px;
+    color:white;
+    font-size: 15px;
+}
+f7{
+    position:absolute;
+    right:60px;
+    top:140px;
+    color:aliceblue;
+    font-size: large;
+
+}
