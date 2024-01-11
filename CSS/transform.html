@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform property</title>
+    <style>
+        #a1{
+            height:200px;
+            width:200px;
+            background-color: rgb(39, 38, 38);
+            margin-top:20px;
+            margin-right: 20px;
+            float:left;
+            border:2px solid;
+        }
+        #a1:hover{
+            transform: translate(40px,60px);
+        }
+        #a2{
+            height:200px;
+            width:200px;
+            background-color: rgb(12, 27, 241);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a2:hover{
+            transform: translateX(20px);
+        }
+        #a3{
+            height:200px;
+            width:200px;
+            background-color: rgb(206, 27, 27);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a3:hover{
+            transform: translateY(60px);
+        }
+        #a4{
+            height:200px;
+            width:200px;
+            background-color: rgb(160, 89, 89);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a4:hover{
+            transform: rotate(80deg);
+        }
+        #a5{
+            height:200px;
+            width:200px;
+            background-color: rgb(9, 235, 223);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a5:hover{
+            transform: rotateX(60deg);
+        }
+        #a6{
+            height:200px;
+            width:200px;
+            background-color: rgb(43, 31, 112);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a6:hover{
+            transform: rotateY(30deg);
+        }
+        #a7{
+            height:200px;
+            width:200px;
+            background-color: rgb(103, 95, 145);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a7:hover{
+            transform: scale(2);
+        }
+        #a8{
+            height:200px;
+            width:200px;
+            background-color: rgb(2, 141, 255);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a8:hover{
+            transform: scaleX(2);
+        }
+        #a9{
+            height:200px;
+            width:200px;
+            background-color: rgb(58, 2, 2);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a9:hover{
+            transform: scaleY(2);
+        }
+        #a10{
+            height:200px;
+            width:200px;
+            background-color: rgb(172, 11, 11);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a10:hover{
+            transform: skew(20deg,30deg);
+        }
+        #a11{
+            height:200px;
+            width:200px;
+            background-color: rgb(125, 252, 6);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a11:hover{
+            transform: skewX(20deg);
+        }
+        #a12{
+            height:200px;
+            width:200px;
+            background-color: rgb(252, 227, 6);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a12:hover{
+            transform: skewY(40deg);
+        }
+        #a13{
+            height:200px;
+            width:200px;
+            background-color: rgb(126, 115, 22);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a13:hover{
+            /*transform: matrix(scaleX(),skewY(),skewX(),scaleY(),translateY(),translateX()); */
+            transform: matrix(4,0,0.5,2,150,120);
+        }
+        
+    </style>
+</head>
+<body>
+    <center><h1>Transform property</h1></center><hr>
+    <div id="a1">translate(x,y)</div>
+    <div id="a2">translate(x)</div>
+    <div id="a3">translate(y)</div>
+    <div id="a4">rotate()</div>
+    <div id="a5">rotateX()</div>
+    <div id="a6">rotateY()</div>
+    <div id="a7">scale()</div>
+    <div id="a8">scaleX()</div>
+    <div id="a9">scaleY()</div>
+    <div id="a10">skew()</div>
+    <div id="a11">skewX()</div>
+    <div id="a12">skewY()</div>
+    <div id="a13">matrix</div>
+</body>
+</html>

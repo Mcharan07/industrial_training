@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+<style>
+    #a{
+        height:200px;
+        width:200px;
+        background-color: aqua;
+        position:relative;
+        bottom:600px;
+        left:400px;
+        animation-name:a1;
+        animation-duration: 5s;
+        animation-timing-function:ease-out;
+
+    }
+@keyframes a1 {
+    from{
+        background-color:black;
+        width:500px;
+        border-radius:30%;
+        animation-timing-function: ease-in-out;
+    }
+    to{
+        background-color: rgb(88, 26, 146);
+        width:200px;
+
+    }
+    
+}
+</style>
+<body>
+    <div id="a"></div>
+    
+</body>
+</html>

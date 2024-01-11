@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform property</title>
+    <style>
+        #a1{
+            height:200px;
+            width:200px;
+            background-color: rgb(39, 38, 38);
+            margin-top:20px;
+            margin-right: 20px;
+            float:left;
+            border:2px solid;
+        }
+        #a1:hover{
+            transform: translate3d(40px,60px,40px);
+        }
+        #a2{
+            height:200px;
+            width:200px;
+            background-color: rgb(12, 27, 241);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a2:hover{
+            transform: translateZ(200px);
+        }
+        #a3{
+            height:200px;
+            width:200px;
+            background-color: rgb(206, 27, 27);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a3:hover{
+            transform: translateY(60px);
+        }
+        #a4{
+            height:200px;
+            width:200px;
+            background-color: rgb(160, 89, 89);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        /* rotate3d( rx, ry, rz, angle )*/
+        #a4:hover{
+            transform: rotate3d(150,150,60,320deg);
+        }
+        #a5{
+            height:200px;
+            width:200px;
+            background-color: rgb(9, 235, 223);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a5:hover{
+            transform: rotateX(150deg);
+        }
+        #a6{
+            height:200px;
+            width:200px;
+            background-color: rgb(43, 31, 112);
+            margin-top:20px;
+            float:left;
+            margin-right: 20px;
+            border:2px solid;
+        }
+        #a6:hover{
+            transform: rotateY(150deg);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <center><h1>Transform property</h1></center><hr>
+    <div id="a1">translate(x,y)</div>
+    <div id="a2">translate(z)</div>
+    <div id="a3">translate(y)</div>
+    <div id="a4">rotate(Z)</div>
+    <div id="a5">rotateX()</div>
+    <div id="a6">rotateY()</div>
+    
+</body>
+</html>
