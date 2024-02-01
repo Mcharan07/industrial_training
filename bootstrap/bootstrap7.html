@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       body{
+        background-color: rgb(240, 230, 230);
+       }
+       .card:hover{
+        background-color: skyblue;
+       }
+    </style>
+</head>
+<body>
+    <div class="row p-1 ">
+        <div class="col-lg-1">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="col-lg-3">
+            <input type="text" placeholder="Search" >
+        </div>
+        <div class="col-lg-1 offset-6">
+            <i class="fa-regular fa-bell mt-2 " style="font-size: 20px; "></i>
+
+        </div>
+        <div class="col-lg-1">
+          <img src="../CSS/c2.jpg" alt="" class="w-50  rounded-circle">
+            
+        </div>
+    </div>
+    <div class="row  p-3 bg-info  h-25">
+        <div class="">
+            <h4 class="mt-1 float-start">Projects</h4>
+            <button type="button" class="btn btn-danger float-end">Create New Project</button>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card   h-60">
+                
+                <div class="card-body">
+                    <i class="fa-solid fa-briefcase float-end"></i>
+                  <h5 class="text-start">Projects</h5>
+                  <h3 class="text-start">18</h3>
+                  <p class="text-start">2 Completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-60">
+                
+                <div class="card-body">
+                    <i class="fa-solid fa-bars float-end"></i>
+                    <h5 class="text-start">Active Task</h5>
+                    <h3 class="text-start">132</h3>
+                    <p class="text-start">28 Completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-60">
+                
+                <div class="card-body">
+                    <i class="fa-solid fa-user-group float-end"></i>
+                    <h5 class="text-start">Teams</h5>
+                    <h3 class="text-start">12</h3>
+                    <p class="text-start">1 Completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-60">
+                
+                <div class="card-body">
+                    <i class="fa-solid fa-chart-pie float-end"></i>
+                    <h5 class="text-start">Productivity</h5>
+                    <h3 class="text-start">76%</h3>
+                    <p class="text-start">5% Completed</p>
+                </div>
+              </div>
+            </div>
+          </div><!---->
+          <div class="col-lg-12 mt-3  "style="background-color:white;"><h4>Active Projects</h4></div>
+          <table class="table  p-3 ">
+            <thead>
+                <tr>
+                <th scope="col">Project Name</th>
+                <th scope="col">HOURS</th>
+                <th scope="col">PRIORITY</th>
+                <th scope="col">MEMBERS</th>
+                <th scope="col">PROGRESS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Dropbox Design System</th>
+                <td>34</td>
+                <td></td>
+                <td>@mdo</td>
+                <td>15%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Stack Team UI</th>
+                <td>47</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>35%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">GitHub</th>
+                <td colspan="2">120</td>
+                <td>@twitter</td>
+                <td>75%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3D Character</th>
+                <td colspan="2">89</td>
+                <td>@twitter</td>
+                <td>63%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 63%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Webpage Design</th>
+                <td colspan="2">108</td>
+                <td>@twitter</td>
+                <td>100%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">GitHub Event</th>
+                <td colspan="2">120</td>
+                <td>@twitter</td>
+                <td>75%
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+        
+    </div>
+
+
+    
+</body>
+</html>
