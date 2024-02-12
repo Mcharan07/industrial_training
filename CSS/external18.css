@@ -1,0 +1,143 @@
+body{
+    background-color: lightgray;
+}
+.a{
+    height: 100px;
+    background-color:antiquewhite;
+}
+.profile{
+    height:560px;
+    width: 360px;
+    background-color: aliceblue;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+   padding: 20px;
+   
+ }
+.details{
+    width: 560px;
+    height: 330px;
+    background-color:azure;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px;
+    
+}
+.status{
+    width:560px;
+    height: 360px;
+    background-color: whitesmoke;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 20px;
+}
+button{
+    background-color: green;
+    border:0px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+.b2{
+    background-color: skyblue;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.b3{
+    background-color:skyblue;
+    border:0px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+}
+.b4{
+    background-color: skyblue;
+    border:0px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.b5{
+    background-color: red;
+    border:0px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+img{
+    border-radius: 250px;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    border: 3px solid skyblue;
+    background-color: lightblue;
+}
+h4{
+    color: grey;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.b6{
+    border: 0px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+}
+.b7{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    margin-left: 10px;
+}
+h3{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+span{
+    color: gray;
+    float: right;
+}
+input{
+    width: 450px;
+    float: right;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.inp{
+    margin-top: 15px;
+}
+.sub{
+    background-color: white;
+    color: black;
+    border: 1px solid skyblue;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.sub:hover{
+    background-color: skyblue;
+    color: white;
+}
+.bar{
+    color: black;
+    float: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
+progress{
+    width: 550px;
+    
+}
+.color{
+  color:blue;
+}
